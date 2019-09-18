@@ -16,9 +16,7 @@ void setup() {
   printer.begin();        // Init printer (same regardless of serial type)
 
   // Print the data in img.h:
-  // must be able to dived by 8...we love maths yes.
   printer.printBitmap(img_width, img_height, img_data);
-
 
 }
 

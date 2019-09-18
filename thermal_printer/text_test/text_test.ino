@@ -14,8 +14,9 @@ void setup() {
   mySerial.begin(19200);  // Initialize SoftwareSerial
   printer.begin();        // Init printer (same regardless of serial type)
 
-  // Test inverse on & off
+  // justify right
   printer.justify('R');
+  // add text
   printer.println(F("do you worky?"));
 
 }
