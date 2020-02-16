@@ -17,7 +17,7 @@ void setup() {
   // justify right
   printer.justify('R');
   // add text
-  printer.println(F("do you worky?"));
+  printer.println(F("NOT YET INVENTED?"));
 
 }
 

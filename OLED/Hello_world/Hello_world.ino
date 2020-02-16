@@ -22,13 +22,13 @@ void setup()
 void loop()
 {
 //set curser
-u8x8.clear();
-for (int i = 0; i<128; i=i+2){
+//u8x8.clear();
+
   
-  u8x8.setCursor(0, i+1);
+  u8x8.setCursor(0, 1);
   u8x8.print("Hello");
-  u8x8.setCursor(0, i+3);
+  u8x8.setCursor(0, 3);
   u8x8.print("World!");
-}
+
 
 }
